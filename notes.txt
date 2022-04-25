@@ -1,0 +1,7 @@
+Project setup {
+    source control-> Staged changes + add to git changes in all files
+    commentLine --> git add . --> add the master to changes
+    GUI - 
+    favicon images in icon create and link in tab bar
+    
+}
