@@ -1,7 +1,14 @@
 Project setup {
     source control-> Staged changes + add to git changes in all files
-    commentLine --> git add . --> add the master to changes
     GUI - 
     favicon images in icon create and link in tab bar
-    
+    git {
+        --> commentLine --> git add . --> add the master to changes
+        --> git config --global user.email "mpkthanos428@gmail.com" --> connect to github into gmail link
+        --> git commit -m "Project Setup" --> commit my project file
+        --> git log --> view to check
+        --> git remote add origin https://github.com/ThanoPraveen/first_web_design.git --> connect to github repository in commit files
+        --> git remote -v --> view fetch and push
+        --> git push -u origin master --> final touch in upload in git to github repository origin master
+    }
 }
