@@ -1,0 +1,21 @@
+@use "../Utilities/forwardAll" as *;
+
+.listBtn {
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    line-height: 1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    display: inline-block;
+
+    &_primary {
+        background-color: theme-color();
+        color: #fff;
+
+        &:hover {
+            background-color: theme-color("primary-color-hover");
+        }
+    }
+}

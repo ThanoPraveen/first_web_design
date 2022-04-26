@@ -1,0 +1,22 @@
+@use "../Utilities/forwardAll" as *;
+
+// Rest browser
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+}
+
+a {
+    text-decoration: none;
+}
+
+.font_ta {
+    font-family: $font-tamil;
+}
+
+.color-animate {
+    transition: 600ms;
+    animation: color-change 10s infinite;
+}

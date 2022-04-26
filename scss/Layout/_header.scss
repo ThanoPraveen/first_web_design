@@ -1,0 +1,32 @@
+@use "../Utilities/forwardAll" as *;
+
+.header {
+    padding: 1rem 20rem;
+    display: flex; // slipt in block level
+    justify-content: space-between; // space in corner in content
+    align-items: center; // vertically center in content items
+    border-bottom: 2px solid lightgray;
+
+    &_menuList {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-transform: uppercase;
+
+        &_menuItem > a {
+            margin-right: 1.5rem;
+            font-size: 14px;
+            font-weight: 600;
+            color: #242424;
+            transition: 300ms;
+            
+            &:hover {
+                color: theme-color("primary-color");
+            }
+
+            &.active {
+                color: theme-color("primary-color");
+            }
+        }
+    }
+}

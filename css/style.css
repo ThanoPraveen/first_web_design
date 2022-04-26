@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  10% {
+    color: pink;
+  }
+  20% {
+    color: cyan;
+  }
+  30% {
+    color: teal;
+  }
+  40% {
+    color: indigo;
+  }
+  50% {
+    color: blue;
+  }
+  60% {
+    color: yellow;
+  }
+  70% {
+    color: orange;
+  }
+  80% {
+    color: brown;
+  }
+  90% {
+    color: gray;
+  }
+  100% {
+    color: green;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font_ta {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.color-animate {
+  transition: 600ms;
+  animation: color-change 10s infinite;
+}
+
+.header {
+  padding: 1rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+.header_menuList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-transform: uppercase;
+}
+.header_menuList_menuItem > a {
+  margin-right: 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242424;
+  transition: 300ms;
+}
+.header_menuList_menuItem > a:hover {
+  color: #3f4df3;
+}
+.header_menuList_menuItem > a.active {
+  color: #3f4df3;
+}
+
+.listBtn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  line-height: 1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+.listBtn_primary {
+  background-color: #3f4df3;
+  color: #fff;
+}
+.listBtn_primary:hover {
+  background-color: #0b0d85;
+}
+
+/*# sourceMappingURL=style.css.map */

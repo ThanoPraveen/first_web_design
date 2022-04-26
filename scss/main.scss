@@ -1,1 +1,10 @@
-// sass-root-path--> sass -w ./scss/main.scss ./css/main.css
+// sass-root-path--> sass -w ./scss/main.scss ./css/style.css
+
+// Rest browser
+@use "./Base/rest";
+
+// Header section
+@use "./Layout/header";
+
+// components
+@use "./Components/buttons";

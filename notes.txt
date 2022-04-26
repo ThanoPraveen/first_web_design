@@ -11,4 +11,13 @@ Project setup {
         --> git remote -v --> view fetch and push
         --> git push -u origin master --> final touch in upload in git to github repository origin master
     }
+    illustration {
+        upDraw --> openSource and free download
+        upSlash -> recommended
+    }
+    26-04-2022 {
+        header--> first start in header section, brand name, usage of menus.
+        *{box-sizing: border-box;--> what is this ? and learn more in this concept}
+        
+    }
 }
