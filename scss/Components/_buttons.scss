@@ -1,6 +1,6 @@
 @use "../Utilities/forwardAll" as *;
 
-.listBtn {
+.btn {
     padding: 0.8rem 1.6rem;
     border-radius: 6px;
     line-height: 1;
@@ -9,14 +9,26 @@
     border: none;
     outline: none;
     display: inline-block;
+    cursor: pointer;
 
     &_primary {
-        @extend .listBtn;
+        @extend .btn;
         background-color: theme-color();
         color: #fff;
 
         &:hover {
             background-color: theme-color("primary-color-hover");
+        }
+
+        &-outline {
+            @extend .btn;
+            background-color: #fff;
+            border: 2px solid theme-color();
+       
+            &:hover {
+                background-color: theme-color("primary-color-hover");
+                color: #fff;
+            }
         }
     }
 }

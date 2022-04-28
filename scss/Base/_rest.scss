@@ -16,6 +16,10 @@ a {
     font-family: $font-tamil;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 .color-animate {
     transition: 600ms;
     animation: color-change 10s infinite;

@@ -8,8 +8,12 @@
     <!-- icon img -->
     <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
     <title>Web design CD</title>
-    <!-- css link -->
+    <!-- css style link -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- css spacing in margin, padding -->
+    <link rel="stylesheet" href="./css/spacing.css">
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/b9b5bd3223.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -34,12 +38,12 @@
                     <a href="#">Courses</a>
                 </li>
                 <li>
-                    <a href="#" class="listBtn_primary">Contact Us</a>
+                    <a href="#" class="btn_primary">Contact Us</a>
                 </li>
             </ul>
         </div>
     </header>
-    <!-- ========== End Header ========== -->
+    <!-- =====sass -w ./scss/main.scss ./css/style.css===== End Header ========== -->
 
     <!-- ========== Start MainContent ========== -->
     <main>
@@ -47,15 +51,17 @@
             <div class="hero-area--contents">
                 <h2 class="hero-area--title">
                     <span class="color-animate">#</span>1 Social Platform to Learning in <span
-                        class="font-ta color-animate badge-primary">தமிழ்</span>
+                        class="font_ta color-animate badge-primary">தமிழ்</span>
                 </h2>
                 <p class="hero-area--desc">
                     Everyone deserves to learn technology in their native language. to support this, we have created
                     this simple platform where you can learn about technology..
                 </p>
-                <div class="m-1 space-x-1 space-y-1">
-                    <button class="listBtn_primary">Watch it free</button>
-                    <button>Learn more</button>
+                <div class="mt-1 space-x-1 space-y-1">
+                    <button type="button" class="btn_primary text-uppercase">
+                        <i class="fa-solid fa-video mr-1"></i>
+                        Watch it free</button>
+                    <button type="button" class="btn_primary-outline text-uppercase">Learn more</button>
                 </div>
             </div>
             <div>
@@ -63,7 +69,7 @@
             </div>
         </section>
     </main>
-    <!-- 29:15 -->
+    <!-- 37:38 -->
     <!-- ========== End MainContent ========== -->
 
     <!-- ========== Start Footer ========== -->

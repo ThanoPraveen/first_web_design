@@ -1,6 +1,9 @@
 @keyframes color-change {
     0% {
-        color: #e91e63;
+        color: #e2668f;
+    }
+    10% {
+        color: #e72ed8;
     }
     20% {
         color: #d500f9;
@@ -17,7 +20,10 @@
     80% {
         color: #00e676;
     }
-    100% {
+    90% {
         color: #aeea00;
+    }
+    100% {
+        color: #ebdb05;
     }
 }
