@@ -11,6 +11,7 @@
     display: inline-block;
 
     &_primary {
+        @extend .listBtn;
         background-color: theme-color();
         color: #fff;
 

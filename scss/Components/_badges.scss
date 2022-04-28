@@ -1,0 +1,12 @@
+@use "../Utilities/Functions/functions" as func;
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-shadow: 5px 5px 10px black;
+
+    &-primary {
+        @extend .badge;
+        background-color: func.theme-color();
+    }
+}

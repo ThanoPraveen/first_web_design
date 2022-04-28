@@ -8,3 +8,10 @@
 
 // components
 @use "./Components/buttons";
+@use "./Components/badges";
+
+// Utilities
+@use "./Utilities/spacing";
+
+// Home page
+@use "./Pages/home";
