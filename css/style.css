@@ -28,6 +28,14 @@
     color: #ebdb05;
   }
 }
+@keyframes box-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -79,6 +87,122 @@ a {
   color: #3f4df3;
 }
 
+.background-shapes .box1, .background-shapes .box4, .background-shapes .box3, .background-shapes .box2 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f4df3;
+  border-radius: 0.3rem;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .box2 {
+  top: 92%;
+  left: 69%;
+  border: 3px solid #d62386;
+}
+.background-shapes .box3 {
+  top: 30%;
+  left: 90%;
+  border: 3px solid #126f75;
+}
+.background-shapes .box4 {
+  top: 95%;
+  left: 20%;
+  border: 3px solid #534c05;
+}
+.background-shapes .heart1, .background-shapes .html2, .background-shapes .html1, .background-shapes .js2, .background-shapes .js1, .background-shapes .css2, .background-shapes .css1, .background-shapes .face_star2, .background-shapes .face_star1, .background-shapes .heart_regular3, .background-shapes .heart_regular2, .background-shapes .heart_regular1, .background-shapes .heart4, .background-shapes .heart3, .background-shapes .heart2 {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: red;
+  z-index: -1;
+  animation: box-shape linear 5s infinite;
+}
+.background-shapes .heart2 {
+  top: 15%;
+  left: 75%;
+  color: #3f4df3;
+}
+.background-shapes .heart3 {
+  top: 25%;
+  left: 45%;
+  color: #d62386;
+}
+.background-shapes .heart4 {
+  top: 95%;
+  left: 5%;
+  color: #126f75;
+}
+.background-shapes .heart_regular1 {
+  top: 45%;
+  left: 50%;
+  color: #3f4df3;
+}
+.background-shapes .heart_regular2 {
+  top: 12%;
+  left: 30%;
+  color: #534c05;
+}
+.background-shapes .heart_regular3 {
+  top: 45%;
+  left: 96%;
+  color: #067a16;
+}
+.background-shapes .face_star1 {
+  font-size: 4rem;
+  top: 15%;
+  left: 20%;
+  color: #3f4df3;
+}
+.background-shapes .face_star2 {
+  font-size: 4rem;
+  top: 94%;
+  left: 90%;
+  color: #126f75;
+}
+.background-shapes .css1 {
+  font-size: 5rem;
+  top: 12%;
+  left: 95%;
+  color: #3f4df3;
+}
+.background-shapes .css2 {
+  font-size: 4.5rem;
+  top: 90%;
+  left: 45%;
+  color: #d62386;
+}
+.background-shapes .js1 {
+  font-size: 4.5rem;
+  top: 12%;
+  left: 40%;
+  color: rgb(1, 1, 126);
+}
+.background-shapes .js2 {
+  font-size: 4.2rem;
+  top: 75%;
+  left: 5%;
+  color: yellow;
+}
+.background-shapes .html1 {
+  font-size: 5rem;
+  top: 60%;
+  left: 92%;
+  color: orangered;
+}
+.background-shapes .html2 {
+  font-size: 4.5rem;
+  top: 35%;
+  left: 10%;
+  color: rgb(235, 137, 45);
+}
+
 .btn, .btn_primary-outline, .btn_primary {
   padding: 0.8rem 1.6rem;
   border-radius: 6px;
@@ -117,9 +241,9 @@ a {
 
 /***** hero_area set *****/
 .hero-area {
-  padding: 8rem 20rem;
+  padding: 8rem 14rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .hero-area--contents {

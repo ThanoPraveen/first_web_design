@@ -1,0 +1,153 @@
+@use "../Utilities/Variables/colors" as varColor;
+
+.background-shapes {
+    .box1 {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 3px solid varColor.$box-color-01;
+        border-radius: 0.30rem;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+
+    .box2 {
+        @extend .box1;
+        top: 92%;
+        left: 69%;
+        border: 3px solid varColor.$box-color-02;
+    }
+
+    .box3 {
+        @extend .box1;
+        top: 30%;
+        left: 90%;
+        border: 3px solid varColor.$box-color-03;
+    }
+
+    .box4 {
+        @extend .box1;
+        top: 95%;
+        left: 20%;
+        border: 3px solid varColor.$box-color-04;
+    }
+
+    .heart1 {
+        font-size: 1.4rem;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        color: red;
+        z-index: -1;
+        animation: box-shape linear 5s infinite;
+    }
+
+    .heart2 {
+        @extend .heart1;
+        top: 15%;
+        left: 75%;
+        color: varColor.$box-color-01;
+    }
+
+    .heart3 {
+        @extend .heart1;
+        top: 25%;
+        left: 45%;
+        color: varColor.$box-color-02;
+    }
+
+    .heart4 {
+        @extend .heart1;
+        top: 95%;
+        left: 5%;
+        color: varColor.$box-color-03;
+    }
+
+    .heart_regular1 {
+        @extend .heart1;
+        top: 45%;
+        left: 50%;
+        color: varColor.$box-color-01;
+    }
+    
+    .heart_regular2 {
+        @extend .heart1;
+        top: 12%;
+        left: 30%;
+        color: varColor.$box-color-04;
+    }
+    
+    .heart_regular3 {
+        @extend .heart1;
+        top: 45%;
+        left: 96%;
+        color: varColor.$box-color-05;
+    }
+
+    .face_star1 {
+        @extend .heart1;
+        font-size: 4rem;
+        top: 15%;
+        left: 20%;
+        color: varColor.$box-color-01;
+    }
+
+    .face_star2 {
+        @extend .heart1;
+        font-size: 4rem;
+        top: 94%;
+        left: 90%;
+        color: varColor.$box-color-03;
+    }
+
+    .css1 {
+        @extend .heart1;
+        font-size: 5rem;
+        top: 12%;
+        left: 95%;
+        color: varColor.$box-color-01;
+    }
+
+    .css2 {
+        @extend .heart1;
+        font-size: 4.5rem;
+        top: 90%;
+        left: 45%;
+        color: varColor.$box-color-02;
+    }
+
+    .js1 {
+        @extend .heart1;
+        font-size: 4.5rem;
+        top: 12%;
+        left: 40%;
+        color: rgb(1, 1, 126);
+    }
+
+    .js2 {
+        @extend .heart1;
+        font-size: 4.2rem;
+        top: 75%;
+        left: 5%;
+        color: yellow;
+    }
+    .html1 {
+        @extend .heart1;
+        font-size: 5rem;
+        top: 60%;
+        left: 92%;
+        color: orangered;
+    }
+
+    .html2 {
+        @extend .heart1;
+        font-size: 4.5rem;
+        top: 35%;
+        left: 10%;
+        color: rgb(235, 137, 45);
+    }
+}
