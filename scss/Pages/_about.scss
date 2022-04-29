@@ -1,0 +1,41 @@
+@use "../Utilities/forwardAll" as *;
+
+.about {
+    padding: 8rem 20rem;
+    background: #3f4df3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+
+    &--img {
+        width: 32rem;
+    }
+
+    &--content {
+         color: #fff;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        line-height: 2;
+        color: #cfcfcf;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover {
+            // color: darkblue;
+            font-size: 1.2rem;
+            border: 1px solid none;
+            border-radius: 8px;
+            padding: 2px 5px;
+            background-color: #8ac98f;
+            text-shadow: 5px 5px 10px black;
+        }
+    }
+}

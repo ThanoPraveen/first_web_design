@@ -1,6 +1,8 @@
 @use "../Utilities/forwardAll" as *;
 
 // Rest browser
+/***** Rest Browser *****/
+
 * {
     margin: 0;
     padding: 0;
@@ -24,3 +26,5 @@ a {
     transition: 600ms;
     animation: color-change 10s infinite;
 }
+
+/***** End Rest Browser *****/

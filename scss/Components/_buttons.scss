@@ -1,5 +1,7 @@
 @use "../Utilities/forwardAll" as *;
 
+/***** Buttons *****/
+
 .btn {
     padding: 0.8rem 1.6rem;
     border-radius: 6px;
@@ -30,5 +32,12 @@
                 color: #fff;
             }
         }
+    
+        &_contact {
+            margin-left: 8px;
+            font-size: 1.6rem;
+        }
     }
 }
+
+/***** End Buttons *****/

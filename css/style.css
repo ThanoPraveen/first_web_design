@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/***** Rest Browser *****/
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +61,8 @@ a {
   animation: color-change 10s infinite;
 }
 
+/***** End Rest Browser *****/
+/***** Header *****/
 .header {
   padding: 1rem 20rem;
   display: flex;
@@ -87,6 +90,8 @@ a {
   color: #3f4df3;
 }
 
+/***** End Header *****/
+/***** Background shapes and animate *****/
 .background-shapes .box1, .background-shapes .box4, .background-shapes .box3, .background-shapes .box2 {
   position: absolute;
   top: 20%;
@@ -108,15 +113,15 @@ a {
 .background-shapes .box3 {
   top: 30%;
   left: 90%;
-  border: 3px solid #126f75;
+  border: 3px solid #006c74;
 }
 .background-shapes .box4 {
   top: 95%;
   left: 20%;
-  border: 3px solid #534c05;
+  border: 3px solid #8a8324;
 }
-.background-shapes .heart1, .background-shapes .html2, .background-shapes .html1, .background-shapes .js2, .background-shapes .js1, .background-shapes .css2, .background-shapes .css1, .background-shapes .face_star2, .background-shapes .face_star1, .background-shapes .heart_regular3, .background-shapes .heart_regular2, .background-shapes .heart_regular1, .background-shapes .heart4, .background-shapes .heart3, .background-shapes .heart2 {
-  font-size: 1.4rem;
+.background-shapes .heart1, .background-shapes .code2, .background-shapes .code1, .background-shapes .html2, .background-shapes .html1, .background-shapes .js2, .background-shapes .js1, .background-shapes .css2, .background-shapes .css1, .background-shapes .face_star2, .background-shapes .face_star1, .background-shapes .heart_regular3, .background-shapes .heart_regular2, .background-shapes .heart_regular1, .background-shapes .heart4, .background-shapes .heart3, .background-shapes .heart2 {
+  font-size: 1.6rem;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -137,7 +142,7 @@ a {
 .background-shapes .heart4 {
   top: 95%;
   left: 5%;
-  color: #126f75;
+  color: #006c74;
 }
 .background-shapes .heart_regular1 {
   top: 45%;
@@ -147,24 +152,24 @@ a {
 .background-shapes .heart_regular2 {
   top: 12%;
   left: 30%;
-  color: #534c05;
+  color: #8a8324;
 }
 .background-shapes .heart_regular3 {
   top: 45%;
   left: 96%;
-  color: #067a16;
+  color: #007910;
 }
 .background-shapes .face_star1 {
-  font-size: 4rem;
+  font-size: 5rem;
   top: 15%;
   left: 20%;
   color: #3f4df3;
 }
 .background-shapes .face_star2 {
-  font-size: 4rem;
+  font-size: 5rem;
   top: 94%;
   left: 90%;
-  color: #126f75;
+  color: #006c74;
 }
 .background-shapes .css1 {
   font-size: 5rem;
@@ -202,7 +207,21 @@ a {
   left: 10%;
   color: rgb(235, 137, 45);
 }
+.background-shapes .code1 {
+  font-size: 2.5rem;
+  top: 18%;
+  left: 60%;
+  color: #000050;
+}
+.background-shapes .code2 {
+  font-size: 2.5rem;
+  top: 88%;
+  left: 34%;
+  color: #4d0108;
+}
 
+/***** End Background shapes and animate *****/
+/***** Buttons *****/
 .btn, .btn_primary-outline, .btn_primary {
   padding: 0.8rem 1.6rem;
   border-radius: 6px;
@@ -229,7 +248,13 @@ a {
   background-color: #0b0d85;
   color: #fff;
 }
+.btn_primary_contact {
+  margin-left: 8px;
+  font-size: 1.6rem;
+}
 
+/***** End Buttons *****/
+/***** HomePage Tamil design *****/
 .badge, .badge-primary {
   padding: 5px 10px;
   border-radius: 10px;
@@ -239,7 +264,8 @@ a {
   background-color: #3f4df3;
 }
 
-/***** hero_area set *****/
+/***** End HomePage Tamil design *****/
+/***** hero_area set HomePage *****/
 .hero-area {
   padding: 8rem 14rem;
   display: flex;
@@ -260,6 +286,38 @@ a {
   color: gray;
 }
 
-/***** End hero_area set *****/
+/***** End hero_area set HomePage *****/
+.about {
+  padding: 8rem 20rem;
+  background: #3f4df3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem;
+}
+.about--img {
+  width: 32rem;
+}
+.about--content {
+  color: #fff;
+}
+.about h2 {
+  font-size: 3rem;
+}
+.about p {
+  line-height: 2;
+  color: #cfcfcf;
+}
+.about a {
+  color: #fff;
+}
+.about a:hover {
+  font-size: 1.2rem;
+  border: 1px solid none;
+  border-radius: 8px;
+  padding: 2px 5px;
+  background-color: #8ac98f;
+  text-shadow: 5px 5px 10px black;
+}
 
 /*# sourceMappingURL=style.css.map */

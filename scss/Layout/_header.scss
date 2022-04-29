@@ -1,5 +1,7 @@
 @use "../Utilities/forwardAll" as *;
 
+/***** Header *****/
+
 .header {
     padding: 1rem 20rem;
     display: flex; // slipt in block level
@@ -30,3 +32,5 @@
         }
     }
 }
+
+/***** End Header *****/

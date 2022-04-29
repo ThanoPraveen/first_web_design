@@ -1,5 +1,7 @@
 @use "../Utilities/Variables/colors" as varColor;
 
+/***** Background shapes and animate *****/
+
 .background-shapes {
     .box1 {
         position: absolute;
@@ -37,7 +39,7 @@
     }
 
     .heart1 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         position: absolute;
         top: 50%;
         left: 10%;
@@ -90,7 +92,7 @@
 
     .face_star1 {
         @extend .heart1;
-        font-size: 4rem;
+        font-size: 5rem;
         top: 15%;
         left: 20%;
         color: varColor.$box-color-01;
@@ -98,7 +100,7 @@
 
     .face_star2 {
         @extend .heart1;
-        font-size: 4rem;
+        font-size: 5rem;
         top: 94%;
         left: 90%;
         color: varColor.$box-color-03;
@@ -150,4 +152,22 @@
         left: 10%;
         color: rgb(235, 137, 45);
     }
+
+    .code1 {
+        @extend .heart1;
+        font-size: 2.5rem;
+        top: 18%;
+        left: 60%;
+        color: #000050;
+    }
+
+    .code2 {
+        @extend .heart1;
+        font-size: 2.5rem;
+        top: 88%;
+        left: 34%;
+        color: #4d0108;
+    }
 }
+
+/***** End Background shapes and animate *****/

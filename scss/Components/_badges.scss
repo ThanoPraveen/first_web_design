@@ -1,5 +1,7 @@
 @use "../Utilities/Functions/functions" as func;
 
+/***** HomePage Tamil design *****/
+
 .badge {
     padding: 5px 10px;
     border-radius: 10px;
@@ -10,3 +12,5 @@
         background-color: func.theme-color();
     }
 }
+
+/***** End HomePage Tamil design *****/
